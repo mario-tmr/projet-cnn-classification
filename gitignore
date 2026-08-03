@@ -1,0 +1,22 @@
+# Dataset MNIST téléchargé automatiquement (ne pas versionner, trop volumineux)
+data/
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Fichiers Jupyter/Colab
+.ipynb_checkpoints/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'IDE
+.vscode/
+.idea/
