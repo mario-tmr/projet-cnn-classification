@@ -24,7 +24,7 @@ class SimpleCNN(nn.Module):
         # Bloc convolutionnel 2
         self.conv2 = nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1)
 
-        # Pooling : divise la taille spatiale par 2
+        # Pooling 
         self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
 
         self.fc1 = nn.Linear(in_features=64 * 7 * 7, out_features=128)

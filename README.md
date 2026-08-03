@@ -1,14 +1,13 @@
-# MNIST CNN — Reconnaissance de chiffres manuscrits avec PyTorch by Faozane YENOU
+# MNIST CNN — Reconnaissance de chiffres manuscrits avec PyTorch by Faozane YENOU and Paterne SIMBA
 
-Implémentation from scratch d'un réseau de neurones convolutionnel (CNN) pour classifier les chiffres manuscrits du dataset MNIST, sans utiliser de modèle pré-entraîné. Ce projet a pour but de démontrer une maîtrise complète des briques fondamentales du deep learning : convolutions, pooling, couches denses, et boucle d'entraînement manuelle.
+Implémentation à partir de zéro d'un réseau de neurones convolutionnel (CNN) pour classifier les chiffres manuscrits du dataset MNIST, sans utiliser de modèle pré-entraîné. Ce projet a pour but de démontrer une maîtrise complète des briques fondamentales du deep learning : convolutions, pooling, couches denses, et boucle d'entraînement manuelle.
 
 ## Résultats obtenus à l'issue de l'entrainement
 
-| Métrique | Valeur |
-| Précision (test) | **99.44 %** |
-| Perte (test) | 0.0230 |
-| Époques d'entraînement | 10 |
-| Nombre de paramètres | 421 642 |
+- **Précision** : **99.44 %**
+- **Perte (loss)** : 0.0230
+- **Nombre d'Epoques d'entrainement** : 10
+- **Nombre de paramères** : **99.44 %**
 
 ![Courbes d'entraînement](outputs/training_curves.png)
 ![Matrice de confusion](outputs/confusion_matrix.png)
@@ -62,7 +61,7 @@ pip install -r requirements.txt
 ```bash
 python src/train.py
 ```
-En procédant comme ça, vous aller télécharger automatiquement MNIST (via `torchvision.datasets`), entraîner le modèle sur 10 époques, et sauvegarder les poids dans `outputs/mnist_cnn.pth`.
+En procédant comme ça, vous allez télécharger automatiquement MNIST (via `torchvision.datasets`), entraîner le modèle sur 10 époques, et sauvegarder les poids dans `outputs/mnist_cnn.pth`.
 
 **Évaluer et visualiser les résultats :**
 ```bash
@@ -81,4 +80,4 @@ Cette commande charge le modèle entraîné et génère les courbes d'entraînem
 
 ## Auteurs
 
-Projet réalisé par Faozane YENOU et Pedro Paterne dans le cadre du cours *Machine Learning 2*.
+Projet réalisé par Faozane YENOU et Paterne SIMBA dans le cadre du cours *Machine Learning 2*.

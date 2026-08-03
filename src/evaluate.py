@@ -7,7 +7,7 @@ visualisations utiles:
   - matrice de confusion
   - exemples de prédictions (bonnes et mauvaises)
 
-Sauvegarde les figures dans outputs/.
+Sauvegarde les figures dans outputs.
 """
 
 import json

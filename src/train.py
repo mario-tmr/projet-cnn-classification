@@ -1,7 +1,7 @@
 """
 train.py
 
-Dans cette partie, on entraîne le CNNsur le dataset MNIST.
+Dans cette partie, on entraîne le CNN sur le dataset MNIST.
 On s'assure de sauvegarder à la fin :
   - les poids du modèle entraîné (outputs/mnist_cnn.pth)
   - l'historique des métriques (outputs/history.json), utilisé par evaluate.py
@@ -43,7 +43,7 @@ def train_one_epoch(model, loader, criterion, optimizer, device):
 
 """
     Cette fonction elle, évalue le modèle sur un jeu de données, sans mettre à jour les poids.
-    Retourne (loss moyenne, accuracy).
+    Elle va retourner (loss moyenne, accuracy).
     """
 
 def evaluate(model, loader, criterion, device):
