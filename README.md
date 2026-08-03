@@ -7,7 +7,7 @@ Implémentation à partir de zéro d'un réseau de neurones convolutionnel (CNN)
 - **Précision** : **99.44 %**
 - **Perte (loss)** : 0.0230
 - **Nombre d'Epoques d'entrainement** : 10
-- **Nombre de paramères** : **99.44 %**
+- **Nombre de paramères** : **421,642**
 
 ![Courbes d'entraînement](outputs/training_curves.png)
 ![Matrice de confusion](outputs/confusion_matrix.png)
