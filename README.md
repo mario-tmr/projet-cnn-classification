@@ -1,4 +1,4 @@
-# MNIST CNN — Reconnaissance de chiffres manuscrits avec PyTorch by Faozane YENOU and Paterne SIMBA
+# MNIST CNN — Reconnaissance de chiffres manuscrits avec PyTorch by Faozane YENOU, Paterne SIMBA, Honorat ASSOGBA and Mario DATONDJI
 
 Implémentation à partir de zéro d'un réseau de neurones convolutionnel (CNN) pour classifier les chiffres manuscrits du dataset MNIST, sans utiliser de modèle pré-entraîné. Ce projet a pour but de démontrer une maîtrise complète des briques fondamentales du deep learning : convolutions, pooling, couches denses, et boucle d'entraînement manuelle.
 
@@ -50,7 +50,7 @@ mnist-cnn-pytorch/
 ## Installation
 
 ```bash
-git clone https://github.com/Zaneyen/mnist-cnn-pytorch.git
+git clone https://github.com/'votre username ici'/mnist-cnn-pytorch.git
 cd mnist-cnn-pytorch
 pip install -r requirements.txt
 ```
@@ -80,4 +80,4 @@ Cette commande charge le modèle entraîné et génère les courbes d'entraînem
 
 ## Auteurs
 
-Projet réalisé par Faozane YENOU et Paterne SIMBA dans le cadre du cours *Machine Learning 2*.
+Projet réalisé par Faozane YENOU, Paterne SIMBA, Mario DatonDJI and Honorat ASSOGBA dans le cadre du cours *Machine Learning 2*.
