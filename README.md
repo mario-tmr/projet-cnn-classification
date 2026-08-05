@@ -6,7 +6,7 @@ Implémentation à partir de zéro d'un réseau de neurones convolutionnel (CNN)
 
 - **Précision** : **99.44 %**
 - **Perte (loss)** : 0.0230
-- **Nombre d'Epoques d'entrainement** : 10
+- **Nombre d'Epoques d'entrainement** : 20
 - **Nombre de paramères** : **421,834**
 
 ![Courbes d'entraînement](outputs/training_curves.png)
@@ -50,7 +50,7 @@ mnist-cnn-pytorch/
 ## Installation
 
 ```bash
-git clone https://github.com/'votre username ici'/mnist-cnn-pytorch.git
+git clone https://github.com/Zaneyen/Zaneyen/Projet_CNN_ML2_Faozane_Paterne_Mario_Honorat.git
 cd mnist-cnn-pytorch
 pip install -r requirements.txt
 ```
