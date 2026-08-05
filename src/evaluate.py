@@ -66,7 +66,7 @@ def plot_confusion_matrix(model, test_loader, device, output_dir):
     cm = confusion_matrix(all_labels, all_preds)
 
     plt.figure(figsize=(8, 6))
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Reds')
     plt.xlabel('Prédiction')
     plt.ylabel('Vraie valeur')
     plt.title('Matrice de confusion')
