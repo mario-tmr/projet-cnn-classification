@@ -12,7 +12,7 @@ Implémentation à partir de zéro d'un réseau de neurones convolutionnel (CNN)
 ![Courbes d'entraînement](outputs/training_curves.png)
 ![Matrice de confusion](outputs/confusion_matrix.png)
 
-Les erreurs de classification restantes concernent surtout des confusions attendues entre chiffres visuellement proches (4 ↔ 9, 7 ↔ 2), typiques de l'écriture manuscrite.
+Les erreurs de classification restantes concernent surtout des confusions attendues entre chiffres visuellement proches (4 ↔ 9, 7 ↔ 1), typiques de l'écriture manuscrite.
 
 ## Architecture du modèle
 
