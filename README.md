@@ -80,4 +80,4 @@ Cette commande charge le modèle entraîné et génère les courbes d'entraînem
 
 ## Auteurs
 
-Projet réalisé par Faozane YENOU, Paterne SIMBA, Mario DatonDJI and Honorat ASSOGBA dans le cadre du cours *Machine Learning 2*.
+Projet réalisé par Mario DATONDJI, Paterne SIMBA,  Faozane YENOU and Honorat ASSOGBA dans le cadre du cours *Machine Learning 2*.
