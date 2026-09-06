@@ -81,3 +81,19 @@ Cette commande charge le modèle entraîné et génère les courbes d'entraînem
 ## Auteurs
 
 Projet réalisé par Mario DATONDJI, Paterne SIMBA,  Faozane YENOU and Honorat ASSOGBA dans le cadre du cours *Machine Learning 2*.
+
+## Contribution
+
+### Conception du réseau de neurones convolutifs (CNN)
+
+J’ai été principalement chargé de la **conception et de la mise en œuvre de l’architecture du réseau de neurones convolutifs (CNN)**. Cette contribution a notamment porté sur :
+
+* la définition de l’architecture du réseau ;
+* le choix et l’organisation des couches de convolution et de pooling ;
+* la définition des fonctions d’activation et des paramètres du réseau ;
+* l’intégration des couches de régularisation afin de limiter le surapprentissage ;
+* la configuration de la couche de sortie adaptée à la tâche de classification ;
+* l’ajustement de l’architecture et des hyperparamètres à partir des performances obtenues lors de l’entraînement et de l’évaluation du modèle.
+
+Cette contribution m’a permis de mettre en pratique la conception d’architectures de **Deep Learning**, ainsi que l’analyse et l’amélioration des performances d’un modèle de classification d’images.
+
